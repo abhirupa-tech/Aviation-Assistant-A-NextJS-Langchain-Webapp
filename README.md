@@ -1,2 +1,2 @@
-# FutureLink---A-NextJS-Langchain-Webapp
-Building a Web App to learn about NextJS and Langchain. Futurelink is a Portal to the Future where you can communicate with your Spirits from the Year 2434.
+# Jetson - An Intelligent Aviation Assisstance [Fictional] [Educative]
+This is an application that assists aircraft maintenance engineers. With Next.js, build an intuitive interface for inputting aircraft details, maintenance logs, and repair history. Integrate Langchain to extract relevant information from maintenance manuals, service bulletins, and technical documents. Users can ask questions like, “What’s the recommended torque for tightening a specific bolt?” or “How often should the landing gear be inspected?” Langchain will provide accurate answers based on the available data
