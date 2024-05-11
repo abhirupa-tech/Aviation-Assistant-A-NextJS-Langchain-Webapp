@@ -1,3 +1,5 @@
+'use client'
+
 import { ParallaxPage } from "@/components/parallaxPage";
 import Image from "next/image";
 
