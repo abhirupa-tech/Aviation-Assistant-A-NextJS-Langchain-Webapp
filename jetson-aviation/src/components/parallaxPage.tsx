@@ -89,26 +89,26 @@ export const ParallaxPage = () => {
     },[])
 
 
-    const parallaxCloudBackgroundStyles = 'z-10 absolute bottom-[10vw] w-[100vw]';
-    const parallaxCloudForegroundStyles = 'z-30 absolute bottom-[10vw] w-[100vw]';    
-    const parallaxCloudTopLayerStyles = 'z-30 absolute bottom-[1vw] w-[100vw]';
+    const parallaxCloudBackgroundStyles = 'z-10 absolute bottom-[0vw] w-[100vw]';
+    const parallaxCloudForegroundStyles = 'z-30 absolute bottom-[0vw] w-[100vw]';    
+    const parallaxCloudTopLayerStyles = 'z-30 absolute bottom-[-5vw] w-[100vw]';
     const parallaxStarStyles = 'absolute top-0 w-[100vw]';
     const parallaxSunStyles = 'z-0 absolute top-[30%] left-[35%] right-[35%] w-[30%]';
     const parallaxFlightStyles = 'z-20 rotate-45 absolute bottom-[-15%] left-[5%] w-[30vw]';
 
     return (
-        <div ref={parallaxRef} className="parallax-outer bg-gradient-to-b from-[rgb(24,80,184)] to-[#F4A939] h-[120vh] overflow-hidden overflow-x-none">
+        <div ref={parallaxRef} className="parallax-outer bg-gradient-to-b from-[rgb(24,80,184)] to-[#F4A939] h-[100vh] overflow-hidden overflow-x-none">
             <div className="parallax">
                 <div className ="absolute z-50 drop-shadow-xl top-[30%] w-[100%] leading-tight font-sans text-[6vw] font-extrabold inline-block text-center align-middle">
-                    <div>Do you want to fly a</div>
+                    <div>Do you have your head</div>
                     <TypeAnimation className="text-zinc-900"
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        'Boeing Globemaster ?',
+                        'in the clouds?',
                         3000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'Airbus A320 ?',
+                        'over the rainbow ?',
                         2500,
-                        'Mig 21 ?',
+                        'around the sun ?',
                         2000,
                     ]}
                     wrapper="span"
