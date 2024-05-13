@@ -1,2 +1,1 @@
-# Jetson - An Intelligent Aviation Assisstance [Fictional] [Educative]
-This is an application that assists aircraft maintenance engineers. With Next.js, build an intuitive interface for inputting aircraft details, maintenance logs, and repair history. Integrate Langchain to extract relevant information from maintenance manuals, service bulletins, and technical documents. Users can ask questions like, “What’s the recommended torque for tightening a specific bolt?” or “How often should the landing gear be inspected?” Langchain will provide accurate answers based on the available data
+A Dummy UX Effect creating Parallax with gsap in Nextjs
