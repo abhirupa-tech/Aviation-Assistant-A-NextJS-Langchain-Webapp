@@ -97,34 +97,35 @@ export const ParallaxPage = () => {
     const parallaxFlightStyles = 'z-20 rotate-45 absolute bottom-[-15%] left-[5%] w-[30vw]';
 
     return (
-        <div ref={parallaxRef} className="parallax-outer bg-gradient-to-b from-[rgb(24,80,184)] to-[#F4A939] h-[100vh] overflow-hidden overflow-x-none">
-            <div className="parallax">
-                <div className ="absolute z-50 drop-shadow-xl top-[30%] w-[100%] leading-tight font-sans text-[6vw] font-extrabold inline-block text-center align-middle">
-                    <div>Do you have your head</div>
-                    <TypeAnimation className="text-zinc-900"
-                    sequence={[
-                        // Same substring at the start will only be typed out once, initially
-                        'in the clouds?',
-                        3000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'over the rainbow ?',
-                        2500,
-                        'around the sun ?',
-                        2000,
-                    ]}
-                    wrapper="span"
-                    speed={50}
-                    repeat={Infinity}
-                    />
-                </div>
-                <img ref= {sun} src="./img/Sun.png" className={parallaxSunStyles}/>
-                <img ref= {cloudlayer1} src="./img/Wave L1.png" className = { parallaxCloudBackgroundStyles}/>            
-                <img ref= {flight}src="./img/Designer.png" className = {parallaxFlightStyles}/>
-                <img ref= {cloudlayer2}src="./img/Wave L2.png" className = { parallaxCloudForegroundStyles }/>
-                <img ref= {cloudlayer3} src="./img/Wave L3.png" className = { parallaxCloudForegroundStyles }/>
-                <img ref= {cloudlayer4} src="./img/Wave L4.png" className = { parallaxCloudTopLayerStyles }/>
-                <img ref= {starrySky} src="./img/Starry Sky.png" className = {parallaxStarStyles}/>
-                
+        <><div ref={parallaxRef} className="parallax-outer bg-gradient-to-b from-[rgb(24,80,184)] to-[#F4A939] h-[100vh] overflow-hidden overflow-x-none">
+        <div className="parallax">
+            <div className ="absolute z-50 drop-shadow-xl top-[30%] w-[100%] leading-tight font-sans text-[6vw] font-extrabold inline-block text-center align-middle">
+                <div>Do you have your head</div>
+                <TypeAnimation className="text-zinc-900"
+                sequence={[
+                    // Same substring at the start will only be typed out once, initially
+                    'in the clouds?',
+                    3000, // wait 1s before replacing "Mice" with "Hamsters"
+                    'over the rainbow ?',
+                    2500,
+                    'around the sun ?',
+                    2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                />
             </div>
+            <img ref= {sun} src="./img/Sun.png" className={parallaxSunStyles}/>
+            <img ref= {cloudlayer1} src="./img/Wave L1.png" className = { parallaxCloudBackgroundStyles}/>            
+            <img ref= {flight}src="./img/Designer.png" className = {parallaxFlightStyles}/>
+            <img ref= {cloudlayer2}src="./img/Wave L2.png" className = { parallaxCloudForegroundStyles }/>
+            <img ref= {cloudlayer3} src="./img/Wave L3.png" className = { parallaxCloudForegroundStyles }/>
+            <img ref= {cloudlayer4} src="./img/Wave L4.png" className = { parallaxCloudTopLayerStyles }/>
+            <img ref= {starrySky} src="./img/Starry Sky.png" className = {parallaxStarStyles}/>
+            
         </div>
+    </div></>
+        
     );
 };
